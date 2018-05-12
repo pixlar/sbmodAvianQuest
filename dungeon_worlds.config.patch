@@ -1,0 +1,18 @@
+[
+  {
+    "op" : "add",
+    "path" : "/avianStart",
+    "value" : {
+      "primaryDungeon" : "avianStart",
+      "threatLevel" : 1,
+      "gravity" : 100,
+      "worldSize" : [2000, 2000],
+      "dungeonBaseHeight" : 800,
+      "dungeonSurfaceHeight" : 495,
+      "ambientLightLevel" : [128, 128, 128],
+      "musicTrack" : "/music/casiopeia.ogg",
+      "biome" : "desert",
+      "environmentStatusEffects" : ["dontstarve"]
+    }
+  }
+]

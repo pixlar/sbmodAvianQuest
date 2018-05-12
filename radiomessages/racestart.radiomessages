@@ -1,0 +1,92 @@
+{
+  "avianExitBedPester" : {
+    "type" : "mission",
+    "text" : "Good morning Flightless! You have overslept. ^#71f2f6;Press A or D to get out of bed^white;."
+  },
+
+  "avianDormRoomTutorial" : {
+    "important" : true,
+    "type" : "mission",
+    "text" : "To interact with a nearby person, door, or other object, you should ^#71f2f6;hover over it with your cursor and press E^white;. Kluex encourages us all to go out into the world, spreading his word."
+  },
+
+  "avianDormRoomPester" : {
+    "type" : "mission",
+    "text" : "Remember, you can open a door by ^#71f2f6;hovering over it with your cursor and pressing E^white;."
+  },
+
+  "avianLoungeTutorial" : {
+    "important" : true,
+    "type" : "mission",
+    "text" : "There is a formal outfit in your dresser. You may want to wear something... tidier for the Stargazer's annoucement"
+  },
+
+  "avianStage5" : {
+    "type" : "mission",
+    "text" : "It is not safe to remain here! ^#71f2f6;Take the Matter Manipulator^white; and escape through the catacombs!"
+  },
+
+  "avianCollapsedGalleryNoMM" : {
+    "important" : true,
+    "type" : "mission",
+    "text" : "Take the Matter Manipulator dropped by the Stargazer - it will be essential to your survival!"
+  },
+
+  "avianCollapsedGallery" : {
+    "important" : true,
+    "type" : "mission",
+    "text" : "It appears the ceiling has collapsed. The Matter Manipulator can be used to clear this sand. ^#71f2f6;Press the R key to equip it^white;, then click and hold on the pile of dirt to dig through it."
+  },
+
+  "avianCollapsedGalleryPester" : {
+    "important" : true,
+    "type" : "mission",
+    "text" : "You can get past this sand using your Matter Manipulator. ^#71f2f6;Press the R key to equip it^white;."
+  },
+
+  "avianFloodedDoor" : {
+    "important" : true,
+    "type" : "mission",
+    "text" : "The cistern has been hit and flooded the next room. It would be best not to go in... I advise you find a way over it - ^#71f2f6;use spacebar to jump^white; up to higher platforms."
+  },
+
+  "avianRooftop" : {
+    "important" : true,
+    "type" : "mission",
+    "text" : "The Grounded Pirates are destroying everything; you must leave this planet immediately."
+  },
+
+  "avianDuct" : {
+    "important" : true,
+    "type" : "mission",
+    "text" : "To jump down from a platform like this you should ^#71f2f6;hold S to crouch then tap spacebar^white;."
+  },
+
+  "avianDuctPester" : {
+    "type" : "mission",
+    "text" : "We are running out of time. I advise that you drop down through this platform by ^#71f2f6;holding S to crouch, then tapping spacebar^white;."
+  },
+
+  "avianGetWeapon" : {
+    "important" : true,
+    "type" : "mission",
+    "text" : "The chest should contain some kind of weapon. Please arm yourself!"
+  },
+
+  "avianWeaponPester" : {
+    "type" : "mission",
+    "text" : "Access a weapon with ease by ^#71f2f6;placing it in one of the action bar slots^white; at the top of the screen, then ^#71f2f6;pressing the corresponding number key to equip^white; or unequip it."
+  },
+
+  "avianTentacleBarrier" : {
+    "important" : true,
+    "type" : "mission",
+    "text" : "You will need to destroy that defective sentry in order to reach the shuttle. I suggest you retrieve a weapon from that chest."
+  },
+
+  "avianShipPlatform" : {
+    "important" : true,
+    "type" : "mission",
+    "text" : "We will have to take this shuttle. Hopefully the Stargazer won't mind!"
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "type" : "avianintrojanitor",
+  "baseType" : "base",
+
+  "damageTeamType" : "ghostly",
+
+  "persistent" : true,
+
+  "dropPools" : [ ],
+  
+  "movementParameters" : {
+    "walkSpeed" : 5.0
+  },
+  
+  "scriptConfig" : {
+    "behavior" : "protectoratejanitor",
+    "dialogMode" : "sequence",
+    "dialog" : {
+      "converse" : {
+        "default" : {
+          "default" : [
+            "The priests have me sweeping the bridge every hour like I'm a machine or something.",
+            "Just one day away from retirement...",
+            "Oh look, more sand to sweep.",
+            "At least it's a nice day to be working outside."
+          ]
+        }
+      },
+      "complain" : {
+        "default" : {
+          "default" : [
+            "Every day, more sand to sweep."
+          ]
+        }
+      }
+    }
+  },
+  
+  "matchColorIndices" : true,
+  "items" : {
+    "override" : [
+      [0, [
+          {
+            "chest" : [
+              { "name" : "jumpsuitchest", "parameters" : { "colorIndex" : [2] } }
+            ],
+            "legs" : [
+              { "name" : "aviancommonerlegs", "parameters" : { "colorIndex" : [2] } }
+            ],
+            "head" : [
+              { "name" : "aviantier1head", "parameters" : { "colorIndex" : [2] } }
+            ],
+            "primary" : [
+              "broom"
+            ]
+          }
+        ] ]
+    ]
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "type" : "avianintrohallworshipper4",
+  "baseType" : "base",
+
+  "damageTeamType" : "ghostly",
+
+  "persistent" : true,
+
+  "dropPools" : [ ],
+
+  "scriptConfig" : {
+    "behavior" : "simple",
+
+    "behaviorConfig" : {
+      "alwaysRun" : false,
+      "wanderWaitTime" : [4.0, 8.0],
+      "wanderTime" : [0.25, 0.5],
+      "wanderDistance" : 10
+    },
+
+    "dialogMode" : "sequence",
+    "dialog" : {
+      "converse" : {
+        "avian" : {
+          "avian" : [
+            "Hey <entityname>! I was wondering if you were going to show up or not.",
+            "Did you sleep through your alarms? That is so you.",
+            "You don't look half bad, for having just woken up!"
+          ]
+        }
+      }
+    }
+  },
+
+  "matchColorIndices" : true,
+  "items" : {
+    "avian" : [
+      [0, [
+          {
+            "chest" : [
+              { "name" : "avianadventurershirt", "parameters" : { "colorIndex" : [1, 4, 5, 6, 7, 8, 9] } }, 
+              { "name" : "aviancommonershirt", "parameters" : { "colorIndex" : [1, 4, 5, 6, 7, 8, 9] } }, 
+              { "name" : "avianworkershirt", "parameters" : { "colorIndex" : [1, 4, 5, 6, 7, 8, 9] } }
+            ],
+            "legs" : [
+              { "name" : "avianadventurerpants", "parameters" : { "colorIndex" : [1, 4, 5, 6, 7, 8, 9] } }, 
+              { "name" : "aviancommonerlegs", "parameters" : { "colorIndex" : [1, 4, 5, 6, 7, 8, 9] } },
+              { "name" : "avianworkerpants", "parameters" : { "colorIndex" : [1, 4, 5, 6, 7, 8, 9] } }
+            ]
+          }
+        ] ]
+    ]
+  }
+}

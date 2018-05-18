@@ -23,7 +23,7 @@
       "converse" : {
         "default" : {
           "default" : [
-            "Not many Avians become Stargazers. I would love to be chosen!",
+            "Not many Avians are able to become Stargazers. I would love to be chosen!",
             "I regret those five Oculemonades for breakfast...",
             "I hope there will be time for a toilet break."
           ]
@@ -38,10 +38,10 @@
       [0, [
           {
             "chest" : [
-              { "name" : "protectoratechest", "parameters" : { "colorIndex" : [0] } }
+              { "name" : "avianfancyshirt", "parameters" : { "colorIndex" : [0] } }
             ],
             "legs" : [
-              { "name" : "protectoratepants", "parameters" : { "colorIndex" : [0] } }
+              { "name" : "avianfancylegs", "parameters" : { "colorIndex" : [0] } }
             ]
           }
         ] ]

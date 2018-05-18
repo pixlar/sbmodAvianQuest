@@ -1,0 +1,61 @@
+{
+  "type" : "avianintrolobbystudent2",
+  "baseType" : "base",
+
+  "damageTeamType" : "ghostly",
+
+  "persistent" : true,
+
+  "dropPools" : [ ],
+
+  "scriptConfig" : {
+    "behavior" : "speaker",
+
+    "behaviorConfig" : {
+      "alwaysRun" : false,
+      "wanderWaitTime" : [6.0, 10.0],
+      "wanderTime" : [0.2, 0.3],
+      "wanderDistance" : 7
+    },
+
+    "dialogMode" : "sequence",
+    "dialog" : {
+      "converse" : {
+        "avian" : {
+          "avian" : [
+            "The Stargazer has called everyone to the temple. What could he want?",
+            "I hear that those Matter Manipulators can disassemble all kinds of materials.",
+            "If the Stargazer chooses you to Ascend, tell Kluex I love him!"
+          ]
+        }
+      },
+      "speak" : {
+        "avian" : {
+          "avian" : [
+            "Hey <entityname>! A Stargazer is here from Avos!"
+          ]
+        }
+      }
+    }
+  },
+
+  "matchColorIndices" : true,
+  "items" : {
+    "avian" : [
+      [0, [
+          {
+            "chest" : [
+              { "name" : "avianadventurershirt", "parameters" : { "colorIndex" : [1, 4, 5, 6, 7, 8, 9] } }, 
+              { "name" : "aviancommonershirt", "parameters" : { "colorIndex" : [1, 4, 5, 6, 7, 8, 9] } }, 
+              { "name" : "avianworkershirt", "parameters" : { "colorIndex" : [1, 4, 5, 6, 7, 8, 9] } }
+            ],
+            "legs" : [
+              { "name" : "avianadventurerpants", "parameters" : { "colorIndex" : [1, 4, 5, 6, 7, 8, 9] } }, 
+              { "name" : "aviancommonerlegs", "parameters" : { "colorIndex" : [1, 4, 5, 6, 7, 8, 9] } },
+              { "name" : "avianworkerpants", "parameters" : { "colorIndex" : [1, 4, 5, 6, 7, 8, 9] } }
+            ]
+          }
+        ] ]
+    ]
+  }
+}

@@ -1,0 +1,80 @@
+{
+	"type": "avianintrohallworshipper5",
+	"baseType": "base",
+
+	"damageTeamType": "ghostly",
+
+	"persistent": true,
+
+	"dropPools": [],
+
+	"scriptConfig": {
+		"behavior": "lounger",
+
+		"behaviorConfig": {
+			"alwaysRun": false,
+			"wanderWaitTime": [4.0, 8.0],
+			"wanderTime": [0.25, 0.5],
+			"wanderDistance": 10
+		},
+
+		"dialogMode": "sequence",
+		"dialog": {
+			"converse": {
+				"avian": {
+					"default": [
+						"I came here as soon as I heard the Stargazer was here.",
+						"I've been waiting here for hours...",
+						"I'm sure he will call for me to Ascend."
+					]
+				}
+			}
+		}
+	},
+
+	"matchColorIndices": true,
+	"items": {
+		"avian": [
+			[0, [{
+				"chest": [{
+						"name": "avianadventurershirt",
+						"parameters": {
+							"colorIndex": [1, 4, 5, 6, 7, 8, 9]
+						}
+					},
+					{
+						"name": "aviancommonershirt",
+						"parameters": {
+							"colorIndex": [1, 4, 5, 6, 7, 8, 9]
+						}
+					},
+					{
+						"name": "avianworkershirt",
+						"parameters": {
+							"colorIndex": [1, 4, 5, 6, 7, 8, 9]
+						}
+					}
+				],
+				"legs": [{
+						"name": "avianadventurerpants",
+						"parameters": {
+							"colorIndex": [1, 4, 5, 6, 7, 8, 9]
+						}
+					},
+					{
+						"name": "aviancommonerlegs",
+						"parameters": {
+							"colorIndex": [1, 4, 5, 6, 7, 8, 9]
+						}
+					},
+					{
+						"name": "avianworkerpants",
+						"parameters": {
+							"colorIndex": [1, 4, 5, 6, 7, 8, 9]
+						}
+					}
+				]
+			}]]
+		]
+	}
+}

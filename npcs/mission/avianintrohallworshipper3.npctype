@@ -1,0 +1,55 @@
+{
+  "type" : "avianintrohallworshipper3",
+  "baseType" : "base",
+
+  "damageTeamType" : "ghostly",
+
+  "persistent" : true,
+
+  "dropPools" : [ ],
+
+  "scriptConfig" : {
+    "behavior" : "simple",
+
+    "behaviorConfig" : {
+      "alwaysRun" : false,
+      "wanderWaitTime" : [4.0, 8.0],
+      "wanderTime" : [0.25, 0.5],
+      "wanderDistance" : 10
+    },
+
+    "dialogMode" : "sequence",
+    "dialog" : {
+      "converse" : {
+        "avian" : {
+          "avian" : [
+            "Do I look ok? I brushed my feathers this morning.",
+            "Maybe I should have worn my other outfit. Do I look nice enough for the Stargazer?",
+            "I hope we don't get quizzed on the Word of Kluex..."
+          ]
+        }
+      }
+    }
+  },
+
+
+  "matchColorIndices" : true,
+  "items" : {
+    "avian" : [
+      [0, [
+          {
+            "chest" : [
+              { "name" : "avianadventurershirt", "parameters" : { "colorIndex" : [1, 4, 5, 6, 7, 8, 9] } }, 
+              { "name" : "aviancommonershirt", "parameters" : { "colorIndex" : [1, 4, 5, 6, 7, 8, 9] } }, 
+              { "name" : "avianworkershirt", "parameters" : { "colorIndex" : [1, 4, 5, 6, 7, 8, 9] } }
+            ],
+            "legs" : [
+              { "name" : "avianadventurerpants", "parameters" : { "colorIndex" : [1, 4, 5, 6, 7, 8, 9] } }, 
+              { "name" : "aviancommonerlegs", "parameters" : { "colorIndex" : [1, 4, 5, 6, 7, 8, 9] } },
+              { "name" : "avianworkerpants", "parameters" : { "colorIndex" : [1, 4, 5, 6, 7, 8, 9] } }
+            ]
+          }
+        ] ]
+    ]
+  }
+}

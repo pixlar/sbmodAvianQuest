@@ -1,0 +1,62 @@
+{
+  "type" : "avianintrohallstaff",
+  "baseType" : "base",
+
+  "damageTeamType" : "ghostly",
+
+  "persistent" : true,
+
+  "dropPools" : [ ],
+
+  "scriptConfig" : {
+    "behavior" : "speaker",
+
+    "behaviorConfig" : {
+      "alwaysRun" : false,
+      "wanderWaitTime" : [4.0, 8.0],
+      "wanderTime" : [0.25, 0.4],
+      "wanderDistance" : 8
+    },
+
+    "dialogMode" : "sequence",
+    "dialog" : {
+      "speak" : {
+        "default" : {
+          "default" : [
+            "You're really cutting it close, <entityname>. Please hurry inside before the ceremony starts."
+          ]
+        }
+      },
+      "converse" : {
+        "avian" : {
+          "avian" : [
+            "The ceremony is going to start any minute now.",
+            "The Stargazer has journeyed all the way from Avos. You should be honored that he has come here.",
+            "The life of a Flightless is not always easy, but know that Kluex watches over you."
+          ]
+        }
+      }
+    }
+  },
+
+
+  "matchColorIndices" : true,
+  "items" : {
+    "avian" : [
+      [0, [
+          {
+            "chest" : [
+              { "name" : "avianadventurershirt", "parameters" : { "colorIndex" : [1, 4, 5, 6, 7, 8, 9] } }, 
+              { "name" : "aviancommonershirt", "parameters" : { "colorIndex" : [1, 4, 5, 6, 7, 8, 9] } }, 
+              { "name" : "avianworkershirt", "parameters" : { "colorIndex" : [1, 4, 5, 6, 7, 8, 9] } }
+            ],
+            "legs" : [
+              { "name" : "avianadventurerpants", "parameters" : { "colorIndex" : [1, 4, 5, 6, 7, 8, 9] } }, 
+              { "name" : "aviancommonerlegs", "parameters" : { "colorIndex" : [1, 4, 5, 6, 7, 8, 9] } },
+              { "name" : "avianworkerpants", "parameters" : { "colorIndex" : [1, 4, 5, 6, 7, 8, 9] } }
+            ]
+          }
+        ] ]
+    ]
+  }
+}

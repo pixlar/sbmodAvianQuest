@@ -1,0 +1,44 @@
+{
+  "type" : "avianintrocourtyardlounger",
+  "baseType" : "base",
+
+  "damageTeamType" : "ghostly",
+
+  "persistent" : true,
+
+  "dropPools" : [ ],
+
+  "scriptConfig" : {
+    "behavior" : "lounger",
+
+    "dialogMode" : "sequence",
+    "dialog" : {
+      "converse" : {
+        "default" : {
+          "default" : [
+            "Sit with me for a moment and let us enjoy the lovely shade.",
+            "Some situations call for haste, but don't let life's small moments pass unappreciated.",
+            "These trees were planted when we came here from Avos, long ago",
+            "May Kluex bless you in all of your journeys."
+          ]
+        }
+      }
+    }
+  },
+
+  "matchColorIndices" : true,
+  "items" : {
+    "override" : [
+      [0, [
+          {
+            "chest" : [
+              { "name" : "avianfancyshirt", "parameters" : { "colorIndex" : [7] } }
+            ],
+            "legs" : [
+              { "name" : "aviancommonerlegs", "parameters" : { "colorIndex" : [7] } }
+            ]
+          }
+        ] ]
+    ]
+  }
+}
